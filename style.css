@@ -2,3 +2,34 @@
     margin: 0;
     padding: 0;
 }
+header {
+    height: 15vh;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main {
+    height: 70vh;
+    background: lightyellow;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+figure{
+    width: 150px;
+}
+footer{
+    height: 15vh;
+    background-color: orange;
+    position: sticky;
+    bottom: 0;
+}
